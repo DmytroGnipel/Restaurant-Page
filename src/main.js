@@ -25,5 +25,4 @@ export default function main () {
     content.append(headline, firstImage, secondImage, thirdImage, fourthImage, description)
     const wrapper = document.querySelector('.wrapper')
     wrapper.appendChild(content)
-    
 }

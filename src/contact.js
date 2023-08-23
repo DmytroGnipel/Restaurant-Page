@@ -25,5 +25,4 @@ export default function contact () {
     newContent.append(headline, bodyOfContact)
     const wrapper = document.querySelector('.wrapper')
     wrapper.appendChild(newContent)
-    
 }

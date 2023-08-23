@@ -4,7 +4,6 @@ import menu from "./menu"
 import contact from "./contact"
 
 //create container for buttons
-
 const buttonsContainer = document.createElement('div')
 buttonsContainer.classList.add('buttonsContainer')
 const homeButton = document.createElement('button')
@@ -24,8 +23,6 @@ const footer = document.createElement('div')
 footer.classList.add('footer')
 footer.innerHTML = 'All rights reserved®'
 wrapper.insertAdjacentElement('afterend', footer)
-
-
 
 main () //when the site just loads
 
