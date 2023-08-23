@@ -74,4 +74,12 @@ export default function menu () {
     newContent.append(headline, bodyOfMenu)
     const wrapper = document.querySelector('.wrapper')
     wrapper.appendChild(newContent)
+    //change color of the active tab
+    const tab = document.querySelectorAll('button')
+    tab[1].style.backgroundColor = 'blue'
+    tab[1].style.color = 'yellow'
+    tab[0].style.backgroundColor = 'yellow'
+    tab[0].style.color = 'blue'
+    tab[2].style.backgroundColor ='yellow'
+    tab[2].style.color = 'blue'
 }

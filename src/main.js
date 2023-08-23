@@ -25,4 +25,12 @@ export default function main () {
     content.append(headline, firstImage, secondImage, thirdImage, fourthImage, description)
     const wrapper = document.querySelector('.wrapper')
     wrapper.appendChild(content)
+    //change color of the active tab
+    const tab = document.querySelectorAll('button')
+    tab[0].style.backgroundColor = 'blue'
+    tab[0].style.color = 'yellow'
+    tab[1].style.backgroundColor = 'yellow'
+    tab[1].style.color = 'blue'
+    tab[2].style.backgroundColor ='yellow'
+    tab[2].style.color = 'blue'
 }

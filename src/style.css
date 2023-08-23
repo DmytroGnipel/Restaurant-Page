@@ -34,15 +34,7 @@ body {
 button {
     width: 33.33%;
     height: 8vh;
-    background-color: yellow;
-    color: blue;
     border: none;
-}
-
-button:hover {
-    background-color: blue;
-    color: yellow;
-    border: 1px solid white;
 }
 
 .footer {
