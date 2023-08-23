@@ -1,48 +1,48 @@
+@font-face {
+    font-family: my-cool-font;
+    src: url(/Lucky\ Blues.otf);
+}
+
 body {
+    font-family: Georgia, serif;
     background-color: rgb(226, 219, 219);
     color:wheat;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0%;
+    margin: 0;
 }
 
 .wrapper, .buttonsContainer, .footer {
     width: 800px;
     margin: auto;
-    background-color: blue;
 }
 
 .wrapper {
     height: 1300px;
-    padding-bottom: 2vh;
-}
-
-.buttonsContainer {
-    display: flex;
-    justify-content: center;
-    
-    
+    background-color: blue;
 }
 
 #content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1vw 3vw;
+    padding: 1vw ;
     gap: 1vh;
 }
 
 button {
     width: 33.33%;
-    height: 50px;
+    height: 8vh;
     background-color: yellow;
     color: blue;
+    border: none;
 }
 
 button:hover {
     background-color: blue;
     color: yellow;
+    border: 1px solid white;
 }
 
 .footer {
@@ -58,18 +58,8 @@ img {
     width: 450px;
 }
 
-p h2 {
-    text-align: center;
-    margin-bottom: 6vh;
-}
-
-h3 {
-    text-align: right;
-}
-
-h2, h2 {
+h2, h3 {
     color: yellow;
+    font-family: my-cool-font, Georgia, serif;
+    text-align: center;
 }
-
-
-

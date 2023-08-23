@@ -11,7 +11,7 @@ export default function menu () {
     headline.innerHTML = 'MENU'
     const bodyOfMenu = document.createElement('p')
     bodyOfMenu.innerHTML = `
-    <h3>AUGUST 24, 2023</h3>
+    <h2>AUGUST 24, 2023</h2>
     Reservations available via Resy, and we always welcome walk-ins.<br><br>
     
     <b>FIRST</b><br>
